@@ -1,0 +1,305 @@
+body{background-color:white;}
+
+#title{
+border: 5px solid black;
+color:  #ca3e3e;
+text-align:left;
+height:60px;
+width:1100px;
+background: #b59090;
+font-family:Helvetica;
+font-size: 30px;
+font-weight:bold;
+padding-top:8px;
+    padding-left: 10px;
+
+
+
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width:auto;
+  margin-top: -20px;
+padding: 20px;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+margin-right: 16px;
+  border-radius: 3px 0 0 3px;
+}
+.prev{ 
+    left: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+#email{
+color:#beae1c;
+font-style:normal;
+font-size:17px;
+text-decoration:underline;
+font-family:"Arial";
+text-align: right-style;
+}
+
+
+.row{
+    height: 5.5%;
+    width: 100%;
+    background-color:#666699;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+  padding:15px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+#text11{
+    width: 100%;
+    height: 25px;
+   background-color:#666699;
+}
+
+h
+{
+color:#8a620c;
+width:1200px;
+padding-bottom:10px;
+font-size:20px;
+padding:20px;
+  
+
+}
+
+ h2{
+color:#8a620c;
+width:1200px;
+padding:20px;
+padding-bottom:10px;
+font-size:20px;
+font-weight: Arial;
+}
+
+#h3{
+color:#8a620c;
+width:1200px;
+padding:20px;
+padding-bottom:10px;
+font-size:25px;
+font-weight: bold;
+text-align:right;
+}
+
+
+#table
+{
+
+position: right;
+  border: 2px solid black;
+  border-collapse: collapse;
+ border-style:solid;
+position: right;
+    margin-left:auto; 
+    margin-right:auto;
+width:70%;
+height:70px;
+padding:30px;
+}
+
+
+#chenar{
+color: black;
+text-align:left;
+width:1150px;
+height:700px;
+ border-style: solid;
+  border-color: #be3a1e;
+    border-width: 3px 3px 3px 3px;
+
+background: #e4e6e5;
+
+}
+
+#tr {
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style:solid;
+  border-left-style: solid;
+  border-color: #be3a1e;
+}
+#thm
+{ 
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-color: #be3a1e;
+
+}
+
+.w3-bar .w3-button {
+    white-space: normal;
+}
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: #000!important;
+    background-color: white!important;
+}
+.w3-large {
+    font-size: 30px!important;
+}
+.w3-circle {
+    border-radius: 50%;
+}
+#am
+{
+border-top-style: solid;
+ border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-color: #be3a1e;
+}
+
+#mare
+{
+text-align:center;
+width:1100px;
+padding 300px;
+margin: 100px;
+height:1750px;
+background: white;
+}
+
+#utilizare2
+{
+    text-decoration: underline;
+    text-align: left;
+    padding-left:25px;
+    color:#8a620c;
+width:1200px;
+padding-bottom:10px;
+font-size:25px;
+
+    font-weight: bold;
+
+}
+#pozee{
+    display:block;
+	background: #426974;
+}
+.mySlides {display:none;}
+#pozee2{
+    display: none;
+}
+
+
+
+
+
